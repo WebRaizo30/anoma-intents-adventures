@@ -1,0 +1,77 @@
+{
+  "name": "Anoma Intents Adventures Assets",
+  "version": "1.0.0",
+  "description": "Game assets for the multiplayer roguelike RPG",
+  "assets": {
+    "characters": {
+      "player": {
+        "human_male": "/assets/characters/human_male.svg",
+        "elf_male": "/assets/characters/elf_male.svg",
+        "dwarf_male": "/assets/characters/dwarf_male.svg",
+        "orc_male": "/assets/characters/orc_male.svg",
+        "halfling_male": "/assets/characters/halfling_male.svg",
+        "dragonborn_male": "/assets/characters/dragonborn_male.svg",
+        "tiefling_male": "/assets/characters/tiefling_male.svg",
+        "drow_male": "/assets/characters/drow_male.svg"
+      },
+      "enemies": {
+        "skeleton": "/assets/characters/skeleton.svg"
+      },
+      "bosses": {
+        "boss_ancient_treant": "/assets/characters/boss_ancient_treant.svg",
+        "boss_dragon_wyrmling": "/assets/characters/boss_dragon_wyrmling.svg",
+        "boss_mummy_lord": "/assets/characters/boss_mummy_lord.svg",
+        "boss_sand_worm": "/assets/characters/boss_sand_worm.svg",
+        "boss_shadow_wolf_alpha": "/assets/characters/boss_shadow_wolf_alpha.svg",
+        "boss_stone_giant": "/assets/characters/boss_stone_giant.svg"
+      },
+      "pets": {
+        "pet_anoma_spirit": "/assets/characters/pet_anoma_spirit.svg",
+        "pet_crystal_bat": "/assets/characters/pet_crystal_bat.svg",
+        "pet_crystal_golem": "/assets/characters/pet_crystal_golem.svg",
+        "pet_flame_sprite": "/assets/characters/pet_flame_sprite.svg",
+        "pet_forest_wolf": "/assets/characters/pet_forest_wolf.svg",
+        "pet_garden_snake": "/assets/characters/pet_garden_snake.svg",
+        "pet_phoenix_chick": "/assets/characters/pet_phoenix_chick.svg",
+        "pet_shadow_cat": "/assets/characters/pet_shadow_cat.svg",
+        "pet_storm_eagle": "/assets/characters/pet_storm_eagle.svg",
+        "pet_void_hound": "/assets/characters/pet_void_hound.svg"
+      }
+    },
+    "tiles": {
+      "terrain": {
+        "grass": "/assets/tiles/grass.svg",
+        "stone": "/assets/tiles/stone.svg",
+        "water": "/assets/tiles/water.svg",
+        "sand": "/assets/tiles/sand.svg",
+        "snow": "/assets/tiles/snow.svg",
+        "lava": "/assets/tiles/lava.svg"
+      }
+    },
+    "items": {
+      "consumables": {
+        "potion_health": "/assets/items/potion_health.svg",
+        "potion": "/assets/items/potion.svg",
+        "potion_mana": "/assets/items/potion_mana.svg",
+        "coin": "/assets/items/coin.svg",
+        "gem": "/assets/items/gem.svg"
+      },
+      "weapons": {
+        "sword": "/assets/items/sword.svg",
+        "shield": "/assets/items/shield.svg"
+      },
+      "magical": {
+        "ring": "/assets/items/ring.svg",
+        "scroll": "/assets/items/scroll.svg"
+      },
+      "shrimp": {
+        "shrimp_baby": "/assets/items/shrimp_baby.svg",
+        "shrimp_adult": "/assets/items/shrimp_adult.svg",
+        "shrimp_tank": "/assets/items/shrimp_tank.svg"
+      }
+    },
+    "ui": {
+      "logo": "/assets/ui/logo.svg"
+    }
+  }
+}

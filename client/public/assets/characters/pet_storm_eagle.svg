@@ -1,0 +1,54 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Storm Eagle Pet -->
+  <defs>
+    <linearGradient id="eagleBodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B4513"/>
+      <stop offset="50%" stop-color="#654321"/>
+      <stop offset="100%" stop-color="#2F4F4F"/>
+    </linearGradient>
+    <linearGradient id="lightningGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFF00"/>
+      <stop offset="50%" stop-color="#00FFFF"/>
+      <stop offset="100%" stop-color="#0088FF"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Wings -->
+  <path d="M6 14 Q2 10 4 6 Q8 8 12 12 L16 14 L12 16 Q6 18 6 14" 
+        fill="#8B4513"/>
+  <path d="M26 14 Q30 10 28 6 Q24 8 20 12 L16 14 L20 16 Q26 18 26 14" 
+        fill="#8B4513"/>
+  
+  <!-- Wing feathers -->
+  <path d="M4 8 L6 6 L8 8 L6 10" fill="#654321"/>
+  <path d="M28 8 L26 6 L24 8 L26 10" fill="#654321"/>
+  
+  <!-- Body -->
+  <ellipse cx="16" cy="16" rx="4" ry="6" fill="url(#eagleBodyGradient)"/>
+  
+  <!-- Head -->
+  <circle cx="16" cy="10" r="4" fill="#8B4513"/>
+  
+  <!-- Beak -->
+  <path d="M16 8 L14 6 L18 6 Z" fill="#FFD700"/>
+  
+  <!-- Eyes (Sharp eagle eyes) -->
+  <circle cx="14" cy="9" r="1.2" fill="#FFFF00"/>
+  <circle cx="18" cy="9" r="1.2" fill="#FFFF00"/>
+  <circle cx="14" cy="9" r="0.6" fill="#000000"/>
+  <circle cx="18" cy="9" r="0.6" fill="#000000"/>
+  
+  <!-- Talons -->
+  <path d="M12 20 L10 24 M12 20 L11 24 M12 20 L13 24" 
+        stroke="#333333" stroke-width="1.5"/>
+  <path d="M20 20 L22 24 M20 20 L21 24 M20 20 L19 24" 
+        stroke="#333333" stroke-width="1.5"/>
+  
+  <!-- Lightning effects -->
+  <path d="M8 12 L6 8 L10 10 L8 6" stroke="url(#lightningGradient)" stroke-width="1.5" fill="none"/>
+  <path d="M24 12 L26 8 L22 10 L24 6" stroke="url(#lightningGradient)" stroke-width="1.5" fill="none"/>
+  
+  <!-- Storm aura -->
+  <circle cx="16" cy="14" r="12" fill="none" stroke="#00FFFF" stroke-width="0.3" opacity="0.4"/>
+  <circle cx="16" cy="14" r="14" fill="none" stroke="#FFFF00" stroke-width="0.2" opacity="0.3"/>
+</svg>

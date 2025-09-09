@@ -1,0 +1,61 @@
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ancient Treant Boss -->
+  <defs>
+    <linearGradient id="treantBarkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B4513"/>
+      <stop offset="50%" stop-color="#654321"/>
+      <stop offset="100%" stop-color="#2F4F4F"/>
+    </linearGradient>
+    <radialGradient id="treantEyeGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#32CD32"/>
+      <stop offset="100%" stop-color="#228B22"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Main trunk/body -->
+  <ellipse cx="24" cy="32" rx="12" ry="14" fill="url(#treantBarkGradient)"/>
+  
+  <!-- Head -->
+  <ellipse cx="24" cy="18" rx="8" ry="10" fill="url(#treantBarkGradient)"/>
+  
+  <!-- Bark texture -->
+  <path d="M16 20 Q20 18 24 20 Q28 18 32 20" stroke="#2F4F4F" stroke-width="1" fill="none"/>
+  <path d="M18 28 Q22 26 26 28 Q30 26 34 28" stroke="#2F4F4F" stroke-width="1" fill="none"/>
+  <path d="M16 36 Q20 34 24 36 Q28 34 32 36" stroke="#2F4F4F" stroke-width="1" fill="none"/>
+  
+  <!-- Eyes (Ancient wisdom) -->
+  <circle cx="20" cy="16" r="2" fill="url(#treantEyeGlow)"/>
+  <circle cx="28" cy="16" r="2" fill="url(#treantEyeGlow)"/>
+  <circle cx="20" cy="16" r="1" fill="#32CD32"/>
+  <circle cx="28" cy="16" r="1" fill="#32CD32"/>
+  
+  <!-- Mouth -->
+  <path d="M20 20 Q24 22 28 20" stroke="#2F4F4F" stroke-width="2" fill="none"/>
+  
+  <!-- Branch arms -->
+  <path d="M12 24 Q8 20 4 18 Q6 22 10 26" 
+        stroke="url(#treantBarkGradient)" stroke-width="4" fill="none"/>
+  <path d="M36 24 Q40 20 44 18 Q42 22 38 26" 
+        stroke="url(#treantBarkGradient)" stroke-width="4" fill="none"/>
+  
+  <!-- Leaves on branches -->
+  <ellipse cx="6" cy="20" rx="2" ry="3" fill="#32CD32" transform="rotate(45 6 20)"/>
+  <ellipse cx="42" cy="20" rx="2" ry="3" fill="#32CD32" transform="rotate(-45 42 20)"/>
+  <ellipse cx="8" cy="24" rx="1.5" ry="2" fill="#228B22" transform="rotate(30 8 24)"/>
+  <ellipse cx="40" cy="24" rx="1.5" ry="2" fill="#228B22" transform="rotate(-30 40 24)"/>
+  
+  <!-- Crown of leaves -->
+  <ellipse cx="20" cy="8" rx="2" ry="3" fill="#32CD32" transform="rotate(15 20 8)"/>
+  <ellipse cx="24" cy="6" rx="2.5" ry="4" fill="#228B22"/>
+  <ellipse cx="28" cy="8" rx="2" ry="3" fill="#32CD32" transform="rotate(-15 28 8)"/>
+  
+  <!-- Roots -->
+  <path d="M16 44 Q12 46 8 44 Q10 42 14 42" 
+        stroke="#654321" stroke-width="2" fill="none"/>
+  <path d="M32 44 Q36 46 40 44 Q38 42 34 42" 
+        stroke="#654321" stroke-width="2" fill="none"/>
+  
+  <!-- Ancient power aura -->
+  <circle cx="24" cy="24" r="20" fill="none" stroke="#32CD32" stroke-width="0.5" opacity="0.4"/>
+  <circle cx="24" cy="24" r="22" fill="none" stroke="#228B22" stroke-width="0.3" opacity="0.2"/>
+</svg>

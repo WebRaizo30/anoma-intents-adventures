@@ -1,0 +1,42 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Magic Potion -->
+  <defs>
+    <linearGradient id="potionGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A90E2"/>
+      <stop offset="50%" stop-color="#357ABD"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <radialGradient id="liquidGradient" cx="40%" cy="30%">
+      <stop offset="0%" stop-color="#64B5F6"/>
+      <stop offset="70%" stop-color="#2196F3"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Bottle -->
+  <path d="M12 8 L12 12 L10 14 L10 26 Q10 28 12 28 L20 28 Q22 28 22 26 L22 14 L20 12 L20 8" 
+        fill="url(#potionGradient)" stroke="#2C5282" stroke-width="0.5"/>
+  
+  <!-- Liquid -->
+  <path d="M11 14 L11 25 Q11 27 13 27 L19 27 Q21 27 21 25 L21 14 L19 12 L13 12 Z" 
+        fill="url(#liquidGradient)"/>
+  
+  <!-- Cork/Stopper -->
+  <rect x="13" y="6" width="6" height="3" fill="#8B4513" rx="1"/>
+  <rect x="14" y="5" width="4" height="2" fill="#A0522D" rx="0.5"/>
+  
+  <!-- Bottle neck -->
+  <rect x="14" y="8" width="4" height="4" fill="url(#potionGradient)"/>
+  
+  <!-- Liquid bubbles -->
+  <circle cx="14" cy="18" r="1" fill="#87CEEB" opacity="0.7"/>
+  <circle cx="18" cy="22" r="0.8" fill="#87CEEB" opacity="0.6"/>
+  <circle cx="16" cy="20" r="0.6" fill="#87CEEB" opacity="0.8"/>
+  
+  <!-- Glass shine -->
+  <path d="M13 10 L14 10 L14 24 L13 24" fill="#FFFFFF" opacity="0.3"/>
+  
+  <!-- Label -->
+  <rect x="12" y="16" width="8" height="4" fill="#FFFFFF" opacity="0.8" rx="0.5"/>
+  <text x="16" y="19" text-anchor="middle" font-family="serif" font-size="6" fill="#1565C0">MP</text>
+</svg>

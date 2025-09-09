@@ -1,0 +1,65 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Drow Male Character (Underdark) -->
+  <defs>
+    <linearGradient id="drowSkinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2F2F2F"/>
+      <stop offset="50%" stop-color="#1A1A1A"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <radialGradient id="drowEyeGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#9370DB"/>
+      <stop offset="100%" stop-color="#4B0082"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Body -->
+  <ellipse cx="16" cy="22" rx="6" ry="9" fill="url(#drowSkinGradient)"/>
+  
+  <!-- Head -->
+  <circle cx="16" cy="12" r="4.5" fill="url(#drowSkinGradient)"/>
+  
+  <!-- Pointed ears (elongated) -->
+  <path d="M11 10 L8 6 L13 8 Z" fill="#1A1A1A"/>
+  <path d="M21 10 L24 6 L19 8 Z" fill="#1A1A1A"/>
+  
+  <!-- White hair -->
+  <path d="M12 8 Q16 6 20 8 Q18 10 16 10 Q14 10 12 8" 
+        fill="#FFFFFF"/>
+  <path d="M10 10 Q8 12 10 14" stroke="#FFFFFF" stroke-width="1" fill="none"/>
+  <path d="M22 10 Q24 12 22 14" stroke="#FFFFFF" stroke-width="1" fill="none"/>
+  
+  <!-- Eyes (Purple glow) -->
+  <circle cx="14" cy="11" r="1.5" fill="url(#drowEyeGlow)"/>
+  <circle cx="18" cy="11" r="1.5" fill="url(#drowEyeGlow)"/>
+  <circle cx="14" cy="11" r="1" fill="#9370DB"/>
+  <circle cx="18" cy="11" r="1" fill="#9370DB"/>
+  
+  <!-- Nose -->
+  <ellipse cx="16" cy="13" rx="0.8" ry="1" fill="#2F2F2F"/>
+  
+  <!-- Arms -->
+  <ellipse cx="10" cy="20" rx="2" ry="6" fill="url(#drowSkinGradient)"/>
+  <ellipse cx="22" cy="20" rx="2" ry="6" fill="url(#drowSkinGradient)"/>
+  
+  <!-- Hands -->
+  <circle cx="8" cy="24" r="1.5" fill="url(#drowSkinGradient)"/>
+  <circle cx="24" cy="24" r="1.5" fill="url(#drowSkinGradient)"/>
+  
+  <!-- Legs -->
+  <ellipse cx="13" cy="28" rx="2" ry="4" fill="url(#drowSkinGradient)"/>
+  <ellipse cx="19" cy="28" rx="2" ry="4" fill="url(#drowSkinGradient)"/>
+  
+  <!-- Dark clothing -->
+  <rect x="13" y="18" width="6" height="8" fill="#4B0082"/>
+  <rect x="14" y="19" width="4" height="2" fill="#9370DB"/>
+  
+  <!-- Spider symbol (Drow culture) -->
+  <circle cx="16" cy="20" r="1.5" fill="#9370DB"/>
+  <path d="M14 18 L12 16 M18 18 L20 16 M14 22 L12 24 M18 22 L20 24" 
+        stroke="#9370DB" stroke-width="0.8"/>
+  <circle cx="16" cy="20" r="0.8" fill="#000000"/>
+  
+  <!-- Underdark aura -->
+  <circle cx="16" cy="16" r="12" fill="none" stroke="#9370DB" stroke-width="0.3" opacity="0.4"/>
+  <circle cx="16" cy="16" r="14" fill="none" stroke="#4B0082" stroke-width="0.2" opacity="0.2"/>
+</svg>

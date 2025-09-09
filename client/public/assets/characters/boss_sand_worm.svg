@@ -1,0 +1,70 @@
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sand Worm Boss -->
+  <defs>
+    <linearGradient id="sandWormGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4A460"/>
+      <stop offset="50%" stop-color="#D2B48C"/>
+      <stop offset="100%" stop-color="#8B7355"/>
+    </linearGradient>
+    <radialGradient id="wormMouthGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#FF4500"/>
+      <stop offset="100%" stop-color="#8B0000"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Worm segments (emerging from sand) -->
+  <ellipse cx="24" cy="40" rx="12" ry="6" fill="url(#sandWormGradient)"/>
+  <ellipse cx="24" cy="32" rx="10" ry="5" fill="url(#sandWormGradient)"/>
+  <ellipse cx="24" cy="24" rx="8" ry="4" fill="url(#sandWormGradient)"/>
+  <ellipse cx="24" cy="16" rx="6" ry="3" fill="url(#sandWormGradient)"/>
+  
+  <!-- Head/mouth -->
+  <circle cx="24" cy="12" r="6" fill="url(#sandWormGradient)"/>
+  
+  <!-- Mouth opening -->
+  <circle cx="24" cy="12" r="4" fill="url(#wormMouthGlow)"/>
+  <circle cx="24" cy="12" r="2.5" fill="#000000"/>
+  
+  <!-- Teeth rings -->
+  <g transform="rotate(0 24 12)">
+    <rect x="23" y="8" width="2" height="3" fill="#FFFFFF"/>
+  </g>
+  <g transform="rotate(45 24 12)">
+    <rect x="23" y="8" width="2" height="3" fill="#FFFFFF"/>
+  </g>
+  <g transform="rotate(90 24 12)">
+    <rect x="23" y="8" width="2" height="3" fill="#FFFFFF"/>
+  </g>
+  <g transform="rotate(135 24 12)">
+    <rect x="23" y="8" width="2" height="3" fill="#FFFFFF"/>
+  </g>
+  <g transform="rotate(180 24 12)">
+    <rect x="23" y="8" width="2" height="3" fill="#FFFFFF"/>
+  </g>
+  <g transform="rotate(225 24 12)">
+    <rect x="23" y="8" width="2" height="3" fill="#FFFFFF"/>
+  </g>
+  <g transform="rotate(270 24 12)">
+    <rect x="23" y="8" width="2" height="3" fill="#FFFFFF"/>
+  </g>
+  <g transform="rotate(315 24 12)">
+    <rect x="23" y="8" width="2" height="3" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Segment ridges -->
+  <ellipse cx="24" cy="18" rx="5" ry="1" fill="#8B7355" opacity="0.8"/>
+  <ellipse cx="24" cy="26" rx="7" ry="1" fill="#8B7355" opacity="0.8"/>
+  <ellipse cx="24" cy="34" rx="9" ry="1" fill="#8B7355" opacity="0.8"/>
+  
+  <!-- Sand particles -->
+  <circle cx="8" cy="36" r="1" fill="#F4A460" opacity="0.7"/>
+  <circle cx="40" cy="38" r="1.2" fill="#D2B48C" opacity="0.6"/>
+  <circle cx="6" cy="28" r="0.8" fill="#F4A460" opacity="0.8"/>
+  <circle cx="42" cy="30" r="1" fill="#D2B48C" opacity="0.7"/>
+  <circle cx="12" cy="44" r="1.5" fill="#8B7355" opacity="0.5"/>
+  <circle cx="36" cy="46" r="1.3" fill="#8B7355" opacity="0.5"/>
+  
+  <!-- Desert aura -->
+  <circle cx="24" cy="24" r="20" fill="none" stroke="#F4A460" stroke-width="0.4" opacity="0.4"/>
+  <circle cx="24" cy="24" r="22" fill="none" stroke="#D2B48C" stroke-width="0.3" opacity="0.2"/>
+</svg>

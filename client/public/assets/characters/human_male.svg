@@ -1,0 +1,43 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Human Male Character -->
+  <defs>
+    <radialGradient id="skinGradient" cx="50%" cy="30%">
+      <stop offset="0%" stop-color="#F4C2A1"/>
+      <stop offset="100%" stop-color="#D4A574"/>
+    </radialGradient>
+    <linearGradient id="armorGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B7355"/>
+      <stop offset="100%" stop-color="#5D4E37"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Body (armor) -->
+  <rect x="12" y="16" width="8" height="12" fill="url(#armorGradient)" rx="2"/>
+  
+  <!-- Head -->
+  <circle cx="16" cy="10" r="6" fill="url(#skinGradient)"/>
+  
+  <!-- Hair -->
+  <path d="M10 8 Q16 4 22 8 Q20 6 16 6 Q12 6 10 8" fill="#8B4513"/>
+  
+  <!-- Eyes -->
+  <circle cx="13" cy="9" r="1" fill="#000"/>
+  <circle cx="19" cy="9" r="1" fill="#000"/>
+  <circle cx="13.5" cy="8.5" r="0.3" fill="#FFF"/>
+  <circle cx="19.5" cy="8.5" r="0.3" fill="#FFF"/>
+  
+  <!-- Mouth -->
+  <path d="M14 12 Q16 13 18 12" stroke="#000" stroke-width="0.5" fill="none"/>
+  
+  <!-- Arms -->
+  <rect x="8" y="18" width="4" height="8" fill="url(#skinGradient)" rx="2"/>
+  <rect x="20" y="18" width="4" height="8" fill="url(#skinGradient)" rx="2"/>
+  
+  <!-- Legs -->
+  <rect x="13" y="28" width="2.5" height="4" fill="#654321" rx="1"/>
+  <rect x="16.5" y="28" width="2.5" height="4" fill="#654321" rx="1"/>
+  
+  <!-- Weapon (sword) -->
+  <rect x="25" y="14" width="2" height="12" fill="#C0C0C0" rx="0.5"/>
+  <rect x="24" y="14" width="4" height="2" fill="#8B4513" rx="0.5"/>
+</svg>

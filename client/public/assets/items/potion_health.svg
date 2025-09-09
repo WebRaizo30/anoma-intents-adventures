@@ -1,0 +1,48 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Health Potion -->
+  <defs>
+    <linearGradient id="bottleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A4A4A"/>
+      <stop offset="100%" stop-color="#2A2A2A"/>
+    </linearGradient>
+    <radialGradient id="liquidGradient" cx="50%" cy="60%">
+      <stop offset="0%" stop-color="#FF6B6B"/>
+      <stop offset="70%" stop-color="#FF4444"/>
+      <stop offset="100%" stop-color="#CC0000"/>
+    </radialGradient>
+    <filter id="liquidGlow">
+      <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Bottle outline -->
+  <path d="M12 8 L12 24 Q12 26 14 26 L18 26 Q20 26 20 24 L20 8 Z" fill="url(#bottleGradient)" stroke="#000" stroke-width="1"/>
+  
+  <!-- Liquid inside -->
+  <path d="M13 10 L13 23 Q13 24 14 24 L18 24 Q19 24 19 23 L19 10 Z" fill="url(#liquidGradient)" filter="url(#liquidGlow)"/>
+  
+  <!-- Liquid surface (animated effect) -->
+  <ellipse cx="16" cy="10" rx="3" ry="1" fill="#FF8888" opacity="0.8"/>
+  
+  <!-- Bottle neck -->
+  <rect x="14" y="6" width="4" height="4" fill="url(#bottleGradient)" stroke="#000" stroke-width="1"/>
+  
+  <!-- Cork -->
+  <rect x="14.5" y="4" width="3" height="3" fill="#8B4513" rx="0.5"/>
+  
+  <!-- Label -->
+  <rect x="13.5" y="14" width="5" height="6" fill="#FFF" opacity="0.9" rx="0.5"/>
+  <text x="16" y="17.5" text-anchor="middle" font-family="serif" font-size="6" fill="#FF0000">❤</text>
+  
+  <!-- Bottle highlight -->
+  <path d="M13 8 Q14 7 15 8 L15 22" stroke="#FFF" stroke-width="0.5" opacity="0.6" fill="none"/>
+  
+  <!-- Magical sparkles -->
+  <circle cx="11" cy="12" r="0.5" fill="#FFD700" opacity="0.8"/>
+  <circle cx="21" cy="16" r="0.5" fill="#FFD700" opacity="0.8"/>
+  <circle cx="10" cy="20" r="0.5" fill="#FFD700" opacity="0.8"/>
+</svg>

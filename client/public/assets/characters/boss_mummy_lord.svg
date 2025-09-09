@@ -1,0 +1,75 @@
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mummy Lord Boss -->
+  <defs>
+    <linearGradient id="mummyBodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5DEB3"/>
+      <stop offset="50%" stop-color="#D2B48C"/>
+      <stop offset="100%" stop-color="#8B7355"/>
+    </linearGradient>
+    <radialGradient id="mummyEyeGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Body -->
+  <ellipse cx="24" cy="30" rx="8" ry="12" fill="url(#mummyBodyGradient)"/>
+  
+  <!-- Head -->
+  <circle cx="24" cy="16" r="6" fill="url(#mummyBodyGradient)"/>
+  
+  <!-- Bandage wrappings -->
+  <path d="M18 12 Q24 10 30 12" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <path d="M18 16 Q24 14 30 16" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <path d="M18 20 Q24 18 30 20" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <path d="M16 24 Q24 22 32 24" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <path d="M16 28 Q24 26 32 28" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <path d="M16 32 Q24 30 32 32" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <path d="M16 36 Q24 34 32 36" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <path d="M18 40 Q24 38 30 40" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- Arms -->
+  <ellipse cx="14" cy="26" rx="3" ry="8" fill="url(#mummyBodyGradient)"/>
+  <ellipse cx="34" cy="26" rx="3" ry="8" fill="url(#mummyBodyGradient)"/>
+  
+  <!-- Arm bandages -->
+  <path d="M12 20 Q14 18 16 20" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+  <path d="M12 24 Q14 22 16 24" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+  <path d="M12 28 Q14 26 16 28" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+  <path d="M32 20 Q34 18 36 20" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+  <path d="M32 24 Q34 22 36 24" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+  <path d="M32 28 Q34 26 36 28" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+  
+  <!-- Eyes (Ancient curse) -->
+  <circle cx="21" cy="15" r="2" fill="url(#mummyEyeGlow)"/>
+  <circle cx="27" cy="15" r="2" fill="url(#mummyEyeGlow)"/>
+  <circle cx="21" cy="15" r="1.2" fill="#FFD700"/>
+  <circle cx="27" cy="15" r="1.2" fill="#FFD700"/>
+  
+  <!-- Crown/headdress -->
+  <polygon points="24,8 20,4 24,6 28,4" fill="#FFD700"/>
+  <circle cx="24" cy="6" r="1.5" fill="#B8860B"/>
+  
+  <!-- Hands -->
+  <circle cx="11" cy="32" r="2" fill="url(#mummyBodyGradient)"/>
+  <circle cx="37" cy="32" r="2" fill="url(#mummyBodyGradient)"/>
+  
+  <!-- Staff/scepter -->
+  <rect x="8" y="20" width="1.5" height="16" fill="#8B4513"/>
+  <polygon points="8.75,18 6,16 8.75,14 11.5,16" fill="#FFD700"/>
+  <circle cx="8.75" cy="16" r="1" fill="#B8860B"/>
+  
+  <!-- Legs -->
+  <rect x="20" y="40" width="2.5" height="6" fill="url(#mummyBodyGradient)"/>
+  <rect x="25.5" y="40" width="2.5" height="6" fill="url(#mummyBodyGradient)"/>
+  
+  <!-- Curse aura -->
+  <circle cx="24" cy="24" r="18" fill="none" stroke="#FFD700" stroke-width="0.5" opacity="0.4"/>
+  <circle cx="24" cy="24" r="20" fill="none" stroke="#B8860B" stroke-width="0.3" opacity="0.3"/>
+  
+  <!-- Ancient symbols -->
+  <text x="6" y="12" font-size="8" fill="#FFD700" opacity="0.6">𓂀</text>
+  <text x="38" y="14" font-size="8" fill="#FFD700" opacity="0.6">𓁹</text>
+  <text x="4" y="32" font-size="8" fill="#B8860B" opacity="0.7">𓈖</text>
+  <text x="40" y="34" font-size="8" fill="#B8860B" opacity="0.7">𓊪</text>
+</svg>

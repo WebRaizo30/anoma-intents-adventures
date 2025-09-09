@@ -1,0 +1,32 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gold Coin -->
+  <defs>
+    <radialGradient id="coinGradient" cx="30%" cy="30%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="70%" stop-color="#FFA500"/>
+      <stop offset="100%" stop-color="#FF8C00"/>
+    </radialGradient>
+    <filter id="coinGlow">
+      <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Coin base -->
+  <circle cx="16" cy="16" r="12" fill="url(#coinGradient)" filter="url(#coinGlow)"/>
+  
+  <!-- Inner ring -->
+  <circle cx="16" cy="16" r="9" fill="none" stroke="#B8860B" stroke-width="1"/>
+  
+  <!-- Anoma symbol -->
+  <text x="16" y="20" text-anchor="middle" font-family="serif" font-size="12" font-weight="bold" fill="#8B4513">⚡</text>
+  
+  <!-- Highlight -->
+  <ellipse cx="13" cy="12" rx="3" ry="2" fill="#FFFF00" opacity="0.6"/>
+  
+  <!-- Edge detail -->
+  <circle cx="16" cy="16" r="12" fill="none" stroke="#B8860B" stroke-width="1"/>
+</svg>

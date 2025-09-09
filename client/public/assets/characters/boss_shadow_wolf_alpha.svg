@@ -1,0 +1,78 @@
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shadow Wolf Alpha Boss -->
+  <defs>
+    <radialGradient id="alphaWolfGradient" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#4A4A4A"/>
+      <stop offset="50%" stop-color="#2A2A2A"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <radialGradient id="alphaEyeGlow" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#FF0000"/>
+      <stop offset="100%" stop-color="#8B0000"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Body (larger than normal wolf) -->
+  <ellipse cx="24" cy="28" rx="14" ry="8" fill="url(#alphaWolfGradient)"/>
+  
+  <!-- Head -->
+  <ellipse cx="24" cy="18" rx="8" ry="6" fill="url(#alphaWolfGradient)"/>
+  
+  <!-- Ears -->
+  <path d="M18 12 L14 6 L20 8 Z" fill="#2A2A2A"/>
+  <path d="M30 12 L34 6 L28 8 Z" fill="#2A2A2A"/>
+  <path d="M17 11 L15 7 L19 8 Z" fill="#CC0000"/>
+  <path d="M31 11 L33 7 L29 8 Z" fill="#CC0000"/>
+  
+  <!-- Snout -->
+  <ellipse cx="24" cy="22" rx="4" ry="3" fill="#1A1A1A"/>
+  
+  <!-- Eyes (Alpha red glow) -->
+  <circle cx="21" cy="17" r="2" fill="url(#alphaEyeGlow)"/>
+  <circle cx="27" cy="17" r="2" fill="url(#alphaEyeGlow)"/>
+  <circle cx="21" cy="17" r="1.2" fill="#FF0000"/>
+  <circle cx="27" cy="17" r="1.2" fill="#FF0000"/>
+  <circle cx="21" cy="17" r="0.6" fill="#FFFFFF"/>
+  <circle cx="27" cy="17" r="0.6" fill="#FFFFFF"/>
+  
+  <!-- Nose -->
+  <ellipse cx="24" cy="22" rx="1.5" ry="1.2" fill="#000000"/>
+  
+  <!-- Fangs -->
+  <path d="M21 23 L20 26 L22 25 Z" fill="#FFFFFF"/>
+  <path d="M27 23 L28 26 L26 25 Z" fill="#FFFFFF"/>
+  
+  <!-- Legs (powerful) -->
+  <rect x="14" y="32" width="3" height="8" fill="#2A2A2A"/>
+  <rect x="20" y="32" width="3" height="8" fill="#2A2A2A"/>
+  <rect x="26" y="32" width="3" height="8" fill="#2A2A2A"/>
+  <rect x="32" y="32" width="3" height="8" fill="#2A2A2A"/>
+  
+  <!-- Claws -->
+  <path d="M15 40 L13 44 M15 40 L15 44 M15 40 L17 44" 
+        stroke="#FF0000" stroke-width="1.5"/>
+  <path d="M21 40 L19 44 M21 40 L21 44 M21 40 L23 44" 
+        stroke="#FF0000" stroke-width="1.5"/>
+  <path d="M27 40 L25 44 M27 40 L27 44 M27 40 L29 44" 
+        stroke="#FF0000" stroke-width="1.5"/>
+  <path d="M33 40 L31 44 M33 40 L33 44 M33 40 L35 44" 
+        stroke="#FF0000" stroke-width="1.5"/>
+  
+  <!-- Tail (alpha size) -->
+  <path d="M38 26 Q44 22 42 14 Q40 18 36 24" 
+        stroke="#2A2A2A" stroke-width="4" fill="none"/>
+  
+  <!-- Shadow mane -->
+  <path d="M16 14 Q12 10 16 8 Q20 6 24 8 Q28 6 32 8 Q36 10 32 14" 
+        fill="#1A1A1A" opacity="0.8"/>
+  
+  <!-- Alpha aura -->
+  <circle cx="24" cy="24" r="18" fill="none" stroke="#FF0000" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="24" cy="24" r="20" fill="none" stroke="#8B0000" stroke-width="0.3" opacity="0.3"/>
+  
+  <!-- Pack leader symbols -->
+  <circle cx="12" cy="12" r="1" fill="#FF0000" opacity="0.6"/>
+  <circle cx="36" cy="12" r="1" fill="#FF0000" opacity="0.6"/>
+  <circle cx="8" cy="24" r="1.2" fill="#8B0000" opacity="0.7"/>
+  <circle cx="40" cy="24" r="1.2" fill="#8B0000" opacity="0.7"/>
+</svg>

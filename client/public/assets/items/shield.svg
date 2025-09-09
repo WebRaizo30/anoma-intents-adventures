@@ -1,0 +1,39 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Medieval Shield -->
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C0C0C0"/>
+      <stop offset="50%" stop-color="#A8A8A8"/>
+      <stop offset="100%" stop-color="#808080"/>
+    </linearGradient>
+    <linearGradient id="emblemGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Shield main body -->
+  <path d="M16 2 L26 8 L26 18 Q26 24 16 30 Q6 24 6 18 L6 8 Z" 
+        fill="url(#shieldGradient)" stroke="#606060" stroke-width="1"/>
+  
+  <!-- Shield rim -->
+  <path d="M16 3 L25 8.5 L25 18 Q25 23 16 28.5 Q7 23 7 18 L7 8.5 Z" 
+        fill="none" stroke="#A0A0A0" stroke-width="0.5"/>
+  
+  <!-- Central emblem -->
+  <circle cx="16" cy="14" r="6" fill="url(#emblemGradient)" stroke="#B8860B" stroke-width="0.5"/>
+  
+  <!-- Cross pattern -->
+  <rect x="15" y="10" width="2" height="8" fill="#8B0000"/>
+  <rect x="12" y="13" width="8" height="2" fill="#8B0000"/>
+  
+  <!-- Shield studs -->
+  <circle cx="12" cy="10" r="1" fill="#606060"/>
+  <circle cx="20" cy="10" r="1" fill="#606060"/>
+  <circle cx="12" cy="18" r="1" fill="#606060"/>
+  <circle cx="20" cy="18" r="1" fill="#606060"/>
+  
+  <!-- Metallic shine -->
+  <path d="M8 8 L10 8 L10 20 L8 20" fill="#FFFFFF" opacity="0.4"/>
+  <path d="M16 4 L18 4 L18 16 L16 16" fill="#FFFFFF" opacity="0.2"/>
+</svg>
